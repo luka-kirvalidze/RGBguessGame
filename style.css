@@ -1,0 +1,106 @@
+body{
+    background-color: #19111c;
+    font-family: 'Roboto', sans-serif;
+}
+#outer {
+    display: flex;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #D3D3D3;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.txtcont{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.gamecont{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.same {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+#start {
+    background-color: #4BB543;
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+}
+#rgbdisp {
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+#result{
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 15px;
+    width: auto;
+}
+#outer2{
+    display: flex;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    display: none;
+}
+.boxEz{
+    width: 300px;
+    height: 300px;
+    background-color: #D3D3D3;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.outOfModeBtns{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(220, 220, 220, 0.1);
+}
+.modes{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+#hard{
+    background-color: gray;
+    color: white;
+}
+/* .hard2{
+    background-color: #4BB543;
+} */
+#easy{
+    background-color: gray;
+    color: white;
+    margin-left: 10px;
+}
